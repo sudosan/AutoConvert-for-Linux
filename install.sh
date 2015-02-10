@@ -26,5 +26,8 @@ make && make install
 cd ../
 ./configure
 make && make install
-cp misc/comskip_wrapper.sh ../encode/
-chmod +x ../encode/comskip_wrapper.sh
+#cp misc/comskip_wrapper.sh ../encode/
+cd ../encode
+chmod +x comskip_wrapper.sh
+chmod +x encode.sh
+chmod +x animeencode_x264.sh
